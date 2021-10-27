@@ -30,13 +30,21 @@
 </head>
 <body>
 <header id="header">
-	Site Header
+	<h1>로그인</h1>
 </header>
 <section id="content">
-	Site Content
+	<form method="post" id="authForm" action="">
+		<div>
+		  <label for="loginId">아이디</label>
+		  <input type="email" id="loginId" name="loginId" placeholder="ID" ><br>
+		  <label for="loginPw">비밀번호</label>
+		  <input type="password" id="loginPw" name="password" placeholder="Password" ><br>
+		</div>
+		<button type="submit">로그인</button>
+	  </form>
 </section>
 <footer id="footer">
-	Copyright (C) 2017 Junil-Hwang All Right Reserved
+	Copyright (C) 2021 PANDA All Right Reserved
 </footer>
 </body>
 </html>
